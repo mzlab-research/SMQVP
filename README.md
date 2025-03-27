@@ -25,7 +25,7 @@ SMQVP (Spatial Metabolomics data Quality Visualization and Processing) is a user
 
 SMQVP is available as a web application and can be accessed directly through the following URL:
 
-[SMQVP Online Platform](https://metax.genomics.cn/SMQVP)
+[SMQVP Online Platform](https://metax.genomics.cn/app/SMQVP)
 
 Alternatively, you can download the source code from GitHub and install it locally if desired.
 
