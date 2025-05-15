@@ -54,7 +54,7 @@ For detailed input data requirements, please refer to the tutorial panel within 
 
 ## Example Data
 
-The example data used in this study is spatial metabolomics data of a mouse brain acquired using the AFAD-ESI platform in positive ion mode. The data includes 53,812 pixels and 2,654 ion peaks. This peak table and raw data are available in the public repository [XXX](#).
+The example data used in this study is spatial metabolomics data of a mouse brain acquired using the AFAD-ESI platform in positive ion mode. The data includes 53,812 pixels and 2,654 ion peaks. This peak table and raw data are available in the public repository https://ngdc.cncb.ac.cn/omix/release/OMIX009541.
 
 ## Results
 
