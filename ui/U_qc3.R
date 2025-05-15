@@ -3,7 +3,7 @@ tabItem(tabName = "qc3",
         fluidRow(#fluidRow1
           h2("Quality Visualization Point 3: Proportion of Ions with Higher Expression in the Tissue Region Compared to the Background Region"),
           p("Based on the previous selection, all pixels in the selected background region were assigned as background group, 
-            while that in the tissue region formed region group. The fold change and p-value from the t-test were calculated for all ions between these two groups,
+            while that in the tissue region formed region group. The fold change and p-value from the wilcox-test were calculated for all ions between these two groups,
             and the proportion of ions with higher expression in the tissue region compared to the background region was determined."),
           p("Generally, the proportion of ions that are elevated in the tissue regions should be higher. "),
           p("However, it is important to note that the proportion of tissue regions being higher than background regions can vary across different platforms and ionization modes."),
