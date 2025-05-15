@@ -30,6 +30,7 @@ peak <- reactive({
 
 output$scatter_plot <- renderPlotly({
   data <- peak()
+  data$log_intensity <- log10(pmax(data$intensity, 1e-10))
   plot_ly(data, x = ~x, y = ~y, color = ~log10(intensity), colors = colorRamp(c("blue", "red")),
           type = 'scatter', mode = 'markers', source = "scatter",marker = list(size = 5)) %>%
     layout(dragmode = "lasso")
