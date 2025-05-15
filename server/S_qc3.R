@@ -42,7 +42,7 @@ volcano_table <- eventReactive(input$finish_selection, {
     back_mean <- median(x[b])
     tissue_mean <- median(x[t])
     fd <- tissue_mean/back_mean 
-    p <- t.test(log2(x[b]),log2(x[t]))
+    p <- wilcox.test(log2(x[b]),log2(x[t]))
     k <- c(back_mean,tissue_mean,fd,p$p.value)
     names(k) <- c("back_mean","tissue_mean","fold_change","p")
     return(k)
