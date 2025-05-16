@@ -48,7 +48,7 @@ ui <- dashboardPage(
 )#ui
 
 server <- function(input, output) {
-  options(shiny.maxRequestSize=1000*1024^2)
+  options(shiny.maxRequestSize=3000*1024^2)
       source(file.path("server","S_Tutorial.R"),  local = TRUE)$value
       source(file.path("server","S_qc0.R"),  local = TRUE)$value
       source(file.path("server","S_qc1.R"),  local = TRUE)$value
