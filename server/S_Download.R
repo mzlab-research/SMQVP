@@ -60,8 +60,8 @@ mz_info_summary <- reactive({
   mz_view_data <- mz_view_data[,-2]
   mz_view_data$adduct <- as.character(mz_view_data$adduct)
   mz_view_data[is.na(mz_view_data)] <- "Unknown"
-  mz_view_data$noise_score <- -log10(mz_view_data$noise_score)
-  mz_view_data$miss_ratio <- round(mz_view_data$miss_ratio,3)
+  mz_view_data$noise_score <- -log10(as.numeric(mz_view_data$noise_score))
+  mz_view_data$miss_ratio <- round(as.numeric(mz_view_data$miss_ratio),3)
   mz_view_data <- mz_view_data %>% arrange(adduct_mark,single_ios)
   
   return(mz_view_data)
