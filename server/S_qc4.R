@@ -47,6 +47,7 @@ output$noise_distribution <- renderPlot({
 output$noise_ratio <- renderTable({
   noise_score <- noise_detection()
   noise_cutoff <- input$noise_cutoff
+  noise_score<-as.numeric(noise_score)
   
   expr <- paste0("1e", -1*noise_cutoff)
   noise_cutoff2 <- eval(parse(text = expr))
