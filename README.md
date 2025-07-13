@@ -64,3 +64,8 @@ SMQVP has been demonstrated to effectively improve clustering results by removin
 
 SMQVP addresses a critical gap in spatial metabolomics by providing a dedicated, user-friendly tool for standardized quality control and preprocessing. Its interactive visualization and automated processing functionalities lower technical barriers and promote reproducibility in research.
 
+## Citation
+
+If you use SMQVP in your research, please cite our publication:
+Mei, Z.; Sun, W.; Zhao, Y.; Deng, H.; Ning, X.; Feng, C.; Zi, J. SMQVP: A Web Application for Spatial Metabolomics Quality Visualization and Processing. Metabolites 2025, *15*, 354. https://doi.org/10.3390/metabo15060354
+
